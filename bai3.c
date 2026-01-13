@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Kiều Tân Thắng]
+ * MSSV:      [PS47908]
+ * Lớp:       [COM108-CS21301]
  *****************************************************************************/
 
 // BÀI 3: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HÌNH TRÒN 
@@ -11,7 +11,13 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
+    int pi = 3.14;
+    float r;
+    printf("Nhập bán kính: ");
+    scanf("%f", &r);
+    printf("Chu vi hình tròn là: %.2f\n", 2 * pi * r);
+    printf("Diện tích hình tròn là: %.2f\n", pi * (r * r));
+    return 0;
 
     // Nhập dữ liệu
 

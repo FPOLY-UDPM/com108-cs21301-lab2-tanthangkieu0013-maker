@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Kiều Tân Thắng]
+ * MSSV:      [PS47908]
+ * Lớp:       [COM108-CS21301]
  *****************************************************************************/
 
 // BÀI 4: XÂY DỰNG CHƯƠNG TRÌNH TÍNH ĐIỂM TRUNG BÌNH 
@@ -13,7 +13,15 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
+    float toan, ly, hoa;
+    printf("Nhập điểm Toán: ");
+    scanf("%f", &toan);
+    printf("Nhập điểm Lý: ");
+    scanf("%f", &ly);
+    printf("Nhập điểm Hóa: ");
+    scanf("%f", &hoa);
+    printf("Điểm trung bình là: %.2f\n", (toan * 3 + ly * 2 + hoa) / 6);
+    return 0;
 
     // Nhập dữ liệu
 
